@@ -16,3 +16,4 @@ geopandas
 geemap
 plotly
 pycrs
+graphviz
