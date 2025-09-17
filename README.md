@@ -8,3 +8,9 @@ $ source cbagro/bin/activate
 $ pip install -r requirements.txt
 $ jupyter-lab
 ```
+
+conda create --name cbagro
+conda activate cbagro
+conda install pip
+pip install -r requirements.txt
+jupyter-lab
