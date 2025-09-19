@@ -9,8 +9,12 @@ $ pip install -r requirements.txt
 $ jupyter-lab
 ```
 
+ou com [Conda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+
+```
 conda create --name cbagro
 conda activate cbagro
 conda install pip
 pip install -r requirements.txt
 jupyter-lab
+```

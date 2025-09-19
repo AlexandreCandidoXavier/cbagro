@@ -17,4 +17,5 @@ geemap
 plotly
 pycrs
 graphviz
-ipycytoscape
+py4cytoscape
+cmocean
