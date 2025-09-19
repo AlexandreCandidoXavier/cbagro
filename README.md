@@ -2,7 +2,7 @@
 
 
 ```
-$ python3 -m venv cbagro
+$ pythondir -m venv cbagro
 $ git clone https://github.com/AlexandreCandidoXavier/cbagro.git
 $ source cbagro/bin/activate
 $ pip install -r requirements.txt
