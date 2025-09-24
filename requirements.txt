@@ -19,3 +19,4 @@ pycrs
 graphviz
 py4cytoscape
 cmocean
+qrcode

@@ -1,15 +1,24 @@
 # Apresentação no XXIII Congresso Brasileiro de Agrometeorologia (XXIII CBAGRO/2025)
 
+Tem que instalar o [git](https://git-scm.com/downloads)
+
+1) Para copiar este repositório, por meio do *git*:
+
+`$ git clone https://github.com/AlexandreCandidoXavier/cbagro.git`
+
+
+No terminal, vá para o diretório do repositório que foi criado
+e aplique os comandos no terminal:
 
 ```
-$ python -m venv cbagro
-$ git clone https://github.com/AlexandreCandidoXavier/cbagro.git
-$ source cbagro/bin/activate
-$ pip install -r requirements.txt
-$ jupyter-lab
+python -m venv cbagro
+source cbagro/bin/activate
+pip install -r requirements.txt
+jupyter-lab
 ```
 
-ou com [Conda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+Se utilizar o [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), no *Anaconda Prompt*:
+
 
 ```
 conda create --name cbagro
@@ -18,3 +27,26 @@ conda install pip
 pip install -r requirements.txt
 jupyter-lab
 ```
+
+Ainda será necessário criar uma pasta com os arquivos (para baixar, [aqui](https://ufesbr-my.sharepoint.com/:f:/g/personal/alexandre_xavier_ufes_br/Esmad63PHqBNoICoqO3XErQBWj9WrMv4X1ny0_ltgUKkdA?e=BiKiRd) ou [aqui](https://drive.google.com/drive/folders/11-qnvwojirAtaQxSE03N0_SUrbcsz44N)):
+
+
+
+```
+pr.npz
+Tmax.npz
+ETo_19610101_19801231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+ETo_19810101_20001231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+ETo_20010101_20240320_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+pr_19610101_19801231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+pr_19810101_20001231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+pr_20010101_20240320_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmax_19610101_19801231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmax_19810101_20001231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmax_20010101_20240320_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmin_19610101_19801231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmin_19810101_20001231_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+Tmin_20010101_20240320_BR-DWGD_UFES_UTEXAS_v_3.2.3.nc
+```
+
+
