@@ -1,11 +1,26 @@
 # Apresentação no XXIII Congresso Brasileiro de Agrometeorologia (CBAGRO/2025)
 
 
-Instalar o [git](https://git-scm.com/downloads). Depois de instalado,
+Instalar o [GIT](https://git-scm.com/downloads). Depois de instalado,
 copiar este repositório para o seu computador, no *prompt* do 
-terminal do Git (*Git CMD*):
+terminal do Git (*Git CMD*), vá ou crie uma para a pasta onde os arquivos
+serão baixados e execute:
 
-`git clone https://github.com/AlexandreCandidoXavier/cbagro.git`
+```
+git clone https://github.com/AlexandreCandidoXavier/cbagro.git`
+```
+
+Se utilizar o [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), no *Anaconda Prompt* vá
+para a pasta onde você baixou o repositório:
+
+```
+conda create --name cbagro
+conda activate cbagro
+conda install pip
+pip install -r requirements.txt
+jupyter-lab
+```
+
 
 No terminal do sistema operacional vá para o diretório do repositório
 onde foi criado e aplique os comandos no terminal:
@@ -13,16 +28,6 @@ onde foi criado e aplique os comandos no terminal:
 ```
 python -m venv cbagro
 source cbagro/bin/activate
-pip install -r requirements.txt
-jupyter-lab
-```
-
-Se utilizar o [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), no *Anaconda Prompt*:
-
-```
-conda create --name cbagro
-conda activate cbagro
-conda install pip
 pip install -r requirements.txt
 jupyter-lab
 ```
