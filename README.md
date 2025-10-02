@@ -1,35 +1,56 @@
 # Apresentação no XXIII Congresso Brasileiro de Agrometeorologia (CBAGRO/2025)
 
 
-Instalar o [GIT](https://git-scm.com/downloads). Depois de instalado,
-copiar este repositório para o seu computador, no *prompt* do 
-terminal do Git (*Git CMD*), vá ou crie uma para a pasta onde os arquivos
-serão baixados e execute:
+Para rodar o *Netebook* da apresentação 
+("apresentacao_cbagro.ipynb") no seu computador, 
+terá:
+
+  * instalar o programa [GIT](https://git-scm.com/downloads);
+  * Depois de instalado o GIT, copiar este repositório para o 
+seu computador. No *prompt* do terminal do Git (*Git CMD*), 
+vá para pasta onde será copiado o repositório e execute:
 
 ```
 git clone https://github.com/AlexandreCandidoXavier/cbagro.git`
 ```
 
-Se utilizar o [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), no *Anaconda Prompt* vá
-para a pasta onde você baixou o repositório:
+  * instalar um ambiente Python, sugiro utilizar o distribudor
+[Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+  * No *Anaconda Prompt* vá para a pasta onde você 
+baixou o repositório:
+  * Crie o ambiente *cbagro*
 
 ```
 conda create --name cbagro
+```
+  * ative o ambiente:
+```
 conda activate cbagro
+```
+  * Instale o "pip"
+```
 conda install pip
-pip install -r requirements.txt
-jupyter-lab
 ```
+  * instale as bibliotecas necessárias
+```
+pip install -r requirements.txt
+```
+  * abra o *Jupyter-Lab*
+```
+jupyter lab
+```
+  * No *Jupyter-Lab* abra o notebook
+"apresentacao_cbagro.ipynb" 
 
-
-No terminal do sistema operacional vá para o diretório do repositório
-onde foi criado e aplique os comandos no terminal:
+Para quem tem familiaridade com sistema Ubuntu, 
+no terminal do sistema operacional vá para o diretório do 
+repositório onde foi criado e aplique os comandos no terminal:
 
 ```
-python -m venv cbagro
-source cbagro/bin/activate
-pip install -r requirements.txt
-jupyter-lab
+$ python -m venv cbagro
+$ source cbagro/bin/activate
+$ pip install -r requirements.txt
+$ jupyter lab
 ```
 
 Ainda será necessário criar uma pasta com os arquivos da base 
