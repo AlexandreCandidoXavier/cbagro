@@ -5,33 +5,33 @@ Para rodar o *Netebook* da apresentação
 ("apresentacao_cbagro.ipynb") no seu computador, 
 terá:
 
-  * instalar o programa [GIT](https://git-scm.com/downloads);
-  * Depois de instalado o GIT, copiar este repositório para o 
-seu computador. No *prompt* do terminal do Git (*Git CMD*), 
-vá para pasta onde será copiado o repositório e execute:
+## Copiar repositório
+  * Instalar o programa [GIT](https://git-scm.com/downloads). Para copiar este repositório no 
+seu computador, no *prompt* do terminal do Git (*Git CMD*), 
+vá para pasta onde deseja copiar o repositório e execute:
 
 ```
-git clone https://github.com/AlexandreCandidoXavier/cbagro.git`
+git clone https://github.com/AlexandreCandidoXavier/cbagro.git
 ```
 
-  * instalar um ambiente Python, sugiro utilizar o distribudor
-[Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+## Rodando com o *Anaconda miniconda*
+  * Instalar o distribuidor [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
   * No *Anaconda Prompt* vá para a pasta onde você 
-baixou o repositório:
-  * Crie o ambiente *cbagro*
+baixou o repositório.
+  * Crie o ambiente *cbagro* com o comando:
 
 ```
 conda create --name cbagro
 ```
-  * ative o ambiente:
+  * ative o ambiente *cbagro*:
 ```
 conda activate cbagro
 ```
-  * Instale o "pip"
+  * Instale o "pip":
 ```
 conda install pip
 ```
-  * instale as bibliotecas necessárias
+  * instale as bibliotecas necessárias:
 ```
 pip install -r requirements.txt
 ```
@@ -39,12 +39,21 @@ pip install -r requirements.txt
 ```
 jupyter lab
 ```
-  * No *Jupyter-Lab* abra o notebook
-"apresentacao_cbagro.ipynb" 
+  * No *Jupyter-Lab* abra o notebook "apresentacao_cbagro.ipynb".
 
-Para quem tem familiaridade com sistema Ubuntu, 
-no terminal do sistema operacional vá para o diretório do 
-repositório onde foi criado e aplique os comandos no terminal:
+Uma vez que você criou o ambiente *cbagro*,
+não haverá mais a necessidade de criar um novo ambiente para uma
+segunda vez de uso do *Notebook*, apenas: no
+*Anaconda Prompt*, na pasta do repositório, ativar o 
+ambiente *cbagro* (`conda activate cbagro`) e abrir o *Jupyter-Lab*
+(`jupyter lab`).
+
+## Rodando no *Linux*
+
+Para quem tem familiaridade com sistema Linux, depois de ter feito
+uma cópia do repositório (`git clone https://github.com/AlexandreCandidoXavier/cbagro.git`), 
+no *terminal* e estando no diretório do 
+repositório *cbagro*:
 
 ```
 $ python -m venv cbagro
@@ -53,8 +62,12 @@ $ pip install -r requirements.txt
 $ jupyter lab
 ```
 
-Ainda será necessário criar uma pasta com os arquivos da base 
-BR-DWGD (para baixar, [aqui](https://ufesbr-my.sharepoint.com/:f:/g/personal/alexandre_xavier_ufes_br/Esmad63PHqBNoICoqO3XErQBWj9WrMv4X1ny0_ltgUKkdA?e=BiKiRd) ou [aqui](https://drive.google.com/drive/folders/11-qnvwojirAtaQxSE03N0_SUrbcsz44N)):
+## Outros arquivos necessários
+
+Ainda será necessário criar uma pasta com os arquivos abaixos da base 
+BR-DWGD (para baixar, [aqui](https://ufesbr-my.sharepoint.com/:f:/g/personal/alexandre_xavier_ufes_br/Esmad63PHqBNoICoqO3XErQBWj9WrMv4X1ny0_ltgUKkdA?e=BiKiRd) ou [aqui](https://drive.google.com/drive/folders/11-qnvwojirAtaQxSE03N0_SUrbcsz44N)). 
+Atribuir a variável `path`, na primeira célula do notebook
+o caminho para esta pasta (p.ex. para p Windows: `path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\'`.
 
 ```
 pr.npz
