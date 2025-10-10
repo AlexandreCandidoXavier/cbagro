@@ -73,13 +73,13 @@ célula de importação das bibliotecas,
 atribuir à variável `path` o caminho correto da pasta
 onde você fez o "download" dos arquivos, por exemplo no Windows:
 
-```path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\```.
+```path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\'```
 
 No caminho tem que ter "\\" dupla e não esqueça de 
 colocar "\\\\" no final!
 
 
-Arquivos necessários:
+Arquivos mínimos necessários:
 
 ```
 pr.npz
