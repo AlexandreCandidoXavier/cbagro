@@ -1,9 +1,9 @@
 # Apresentação no XXIII Congresso Brasileiro de Agrometeorologia (CBAGRO/2025)
 
 
-Para rodar o *Notebook* da minha apresentação do 
-Congresso Brasileiro de Agrometeorologia de 2025, 
-arquivo  "apresentacao_cbagro.ipynb" no seu computador, terá:
+Para rodar no seu computador o *Notebook* da minha apresentação 
+no Congresso Brasileiro de Agrometeorologia de 2025, 
+arquivo  "apresentacao_cbagro.ipynb", terá:
 
 ## Copiar repositório
   * Instalar o programa [GIT](https://git-scm.com/downloads). Para copiar este repositório no 
@@ -35,7 +35,7 @@ conda install pip
 ```
 pip install -r requirements.txt
 ```
-  * Abra o *Jupyter-Lab*
+  * Abra o *Jupyter-Lab*:
 ```
 jupyter lab
 ```
@@ -75,7 +75,7 @@ onde você fez o "download" dos arquivos, por exemplo no Windows:
 
 ```path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\'```
 
-No caminho tem que ter "\\" dupla e não esqueça de 
+No caminho tem que ter "\\" dupla. Não esqueça de 
 colocar "\\\\" no final!
 
 
