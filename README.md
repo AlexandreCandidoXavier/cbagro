@@ -1,9 +1,9 @@
 # Apresentação no XXIII Congresso Brasileiro de Agrometeorologia (CBAGRO/2025)
 
 
-Para rodar o *Netebook* da apresentação 
-("apresentacao_cbagro.ipynb") no seu computador, 
-terá:
+Para rodar o *Notebook* da minha apresentação do 
+Congresso Brasileiro de Agrometeorologia de 2025, 
+arquivo  "apresentacao_cbagro.ipynb" no seu computador, terá:
 
 ## Copiar repositório
   * Instalar o programa [GIT](https://git-scm.com/downloads). Para copiar este repositório no 
