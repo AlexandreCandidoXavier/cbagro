@@ -1,0 +1,9 @@
+Para atualizar projeto
+$ git pull # up date Project
+
+para atualizar no windows
+$ git status
+$ git add .
+$ git commit -m "jshdjshdjsh"
+$ git push
+
