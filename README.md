@@ -18,12 +18,12 @@ git clone https://github.com/AlexandreCandidoXavier/cbagro.git
   * Instalar o distribuidor [Anaconda miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
   * No *Anaconda Prompt* vá para a pasta onde você 
 baixou o repositório.
-  * Crie o ambiente *cbagro* com o comando:
+  * Crie o ambiente que vamos nomina-lo de *cbagro* com o comando:
 
 ```
 conda create --name cbagro
 ```
-  * ative o ambiente *cbagro*:
+  * Ative o ambiente *cbagro*:
 ```
 conda activate cbagro
 ```
@@ -31,11 +31,11 @@ conda activate cbagro
 ```
 conda install pip
 ```
-  * instale as bibliotecas necessárias:
+  * Instale as bibliotecas necessárias:
 ```
 pip install -r requirements.txt
 ```
-  * abra o *Jupyter-Lab*
+  * Abra o *Jupyter-Lab*
 ```
 jupyter lab
 ```
@@ -64,10 +64,22 @@ $ jupyter lab
 
 ## Outros arquivos necessários
 
-Ainda será necessário criar uma pasta com os arquivos abaixos da base 
-BR-DWGD (para baixar, [aqui](https://ufesbr-my.sharepoint.com/:f:/g/personal/alexandre_xavier_ufes_br/Esmad63PHqBNoICoqO3XErQBWj9WrMv4X1ny0_ltgUKkdA?e=BiKiRd) ou [aqui](https://drive.google.com/drive/folders/11-qnvwojirAtaQxSE03N0_SUrbcsz44N)). 
-Atribuir a variável `path`, na primeira célula do notebook
-o caminho para esta pasta (p.ex. para p Windows: `path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\'`.
+Ainda será necessário criar uma pasta com 
+arquivos da base BR-DWGD apresentados
+abaixo,  (para baixar, [aqui](https://ufesbr-my.sharepoint.com/:f:/g/personal/alexandre_xavier_ufes_br/Esmad63PHqBNoICoqO3XErQBWj9WrMv4X1ny0_ltgUKkdA?e=BiKiRd) ou [aqui](https://drive.google.com/drive/folders/11-qnvwojirAtaQxSE03N0_SUrbcsz44N)). 
+
+No *Jupyter lab*, no notebook "apresentacao_cbagro.ipynb", na
+célula de importação das bibliotecas, 
+atribuir à variável `path` o caminho correto da pasta
+onde você fez o "download" dos arquivos, por exemplo no Windows:
+
+```path = 'C:\\Users\\Acer\\Desktop\\dados_BR-DWGD\\```.
+
+No caminho tem que ter "\\" dupla e não esqueça de 
+colocar "\\\\" no final!
+
+
+Arquivos necessários:
 
 ```
 pr.npz
